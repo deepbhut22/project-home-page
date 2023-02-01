@@ -1,0 +1,60 @@
+.upper{
+    height: 80vh;
+    background-color: aqua;
+    width: 100%;
+    background-image: url("https://t3.ftcdn.net/jpg/02/74/80/30/360_F_274803045_CqBx6AiSpDsnoFXw2KmqISfJfGuE3V35.jpg");
+    background-size: cover;
+    background-position:bottom;
+    /* position: fixed; */
+}
+.nnn{
+    position: fixed;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.mid{
+    height: 100vh;
+}
+.logo{
+    color: orange;
+}
+.bhut{
+    color: orangered;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px;
+    transition: 2s;
+}
+li{
+    display: inline-block;
+    padding:0 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.aa:hover:hover{
+    color: coral;
+    transition: .5s;
+}
+.login:hover{
+    transform: scale(1.5);
+    color: coral;
+    transition: 1s;
+}
+.mid{
+    height: 100vh;
+    background-color: blueviolet;
+}
+
